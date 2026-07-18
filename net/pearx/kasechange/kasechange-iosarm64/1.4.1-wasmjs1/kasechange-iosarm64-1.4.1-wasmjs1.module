@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kasechange/1.4.1-wasmjs1/kasechange-1.4.1-wasmjs1.module",
+    "group": "net.pearx.kasechange",
+    "module": "kasechange",
+    "version": "1.4.1-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kasechange-iosArm64Main-1.4.1-wasmjs1.klib",
+          "url": "kasechange-iosarm64-1.4.1-wasmjs1.klib",
+          "size": 24885,
+          "sha512": "cfe1fefe62dc3487dafa1dea278d36314b13fe0f24ed620763dba6e95f4c63c510408defe0843f01f60edff1fb9ef4aeafd77647945caa2c54d34132678695ff",
+          "sha256": "755e67d03172c244953c11ed54a872e8db58ce1d873f11b7f943f0351b2738df",
+          "sha1": "176e91dde8c3572df3b161081f17712cb30991f8",
+          "md5": "d970fd77651518ed975090dd914358ec"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kasechange-iosarm64-1.4.1-wasmjs1-sources.jar",
+          "url": "kasechange-iosarm64-1.4.1-wasmjs1-sources.jar",
+          "size": 6877,
+          "sha512": "79caa4e4f081c6ae2da0ec9b1a59458a1fd32ce0f20a40773c7e107228660d7fa298786d181f7a82032737c45f43cda2946810fbc583233a98402909cc63e9da",
+          "sha256": "76845834bb3bd2abc37a6abeff08a32e17f76fb86cff209a883f31e6135b6324",
+          "sha1": "4517cf8e34fa552f36ba5fc0e54d668f74f92ac9",
+          "md5": "e82635ec1a278bfcce6d8c47ee973d92"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kasechange-iosarm64-1.4.1-wasmjs1-metadata.jar",
+          "url": "kasechange-iosarm64-1.4.1-wasmjs1-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

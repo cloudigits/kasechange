@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kasechange/1.4.1-wasmjs1/kasechange-1.4.1-wasmjs1.module",
+    "group": "net.pearx.kasechange",
+    "module": "kasechange",
+    "version": "1.4.1-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kasechange-js-1.4.1-wasmjs1.klib",
+          "url": "kasechange-js-1.4.1-wasmjs1.klib",
+          "size": 22943,
+          "sha512": "01d5ae092bb14603798f83f1a183bb0c0d34bed041445f58e1b16ff8f674e00cabfa20fd64777023f9704f8b024c006437e45c6df56adc92feb1082e1044b3b1",
+          "sha256": "bde728376c180504f5974c0eec843e390e8a6e5024780c007358df530d2be1be",
+          "sha1": "cff8e09b5b205818fa73871b4e85be8bafb77653",
+          "md5": "b24b7c51754fe5389e3ac4588d8235d5"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kasechange-js-1.4.1-wasmjs1.klib",
+          "url": "kasechange-js-1.4.1-wasmjs1.klib",
+          "size": 22943,
+          "sha512": "01d5ae092bb14603798f83f1a183bb0c0d34bed041445f58e1b16ff8f674e00cabfa20fd64777023f9704f8b024c006437e45c6df56adc92feb1082e1044b3b1",
+          "sha256": "bde728376c180504f5974c0eec843e390e8a6e5024780c007358df530d2be1be",
+          "sha1": "cff8e09b5b205818fa73871b4e85be8bafb77653",
+          "md5": "b24b7c51754fe5389e3ac4588d8235d5"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kasechange-js-1.4.1-wasmjs1-sources.jar",
+          "url": "kasechange-js-1.4.1-wasmjs1-sources.jar",
+          "size": 6877,
+          "sha512": "79caa4e4f081c6ae2da0ec9b1a59458a1fd32ce0f20a40773c7e107228660d7fa298786d181f7a82032737c45f43cda2946810fbc583233a98402909cc63e9da",
+          "sha256": "76845834bb3bd2abc37a6abeff08a32e17f76fb86cff209a883f31e6135b6324",
+          "sha1": "4517cf8e34fa552f36ba5fc0e54d668f74f92ac9",
+          "md5": "e82635ec1a278bfcce6d8c47ee973d92"
+        }
+      ]
+    }
+  ]
+}

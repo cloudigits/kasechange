@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kasechange/1.4.1-wasmjs1/kasechange-1.4.1-wasmjs1.module",
+    "group": "net.pearx.kasechange",
+    "module": "kasechange",
+    "version": "1.4.1-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kasechange-wasm-js-1.4.1-wasmjs1.klib",
+          "url": "kasechange-wasm-js-1.4.1-wasmjs1.klib",
+          "size": 22976,
+          "sha512": "ee7328cec41c61beb06778b45912b5064000e39a93c0a16c274d6d8f30d3e127c40fc8397a271f54f60f77a23600dd150553eea808860a55452399dfbc3f5a75",
+          "sha256": "b6b57374245d69e2bf502cdc1b1a0d345b9fd6aa83eadf2243a03949f64dbf0b",
+          "sha1": "c9f0d4efcc6d41590bc1a51f83e2d3c58320b398",
+          "md5": "65e57b67f57b7530c079baff0289e4f3"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kasechange-wasm-js-1.4.1-wasmjs1.klib",
+          "url": "kasechange-wasm-js-1.4.1-wasmjs1.klib",
+          "size": 22976,
+          "sha512": "ee7328cec41c61beb06778b45912b5064000e39a93c0a16c274d6d8f30d3e127c40fc8397a271f54f60f77a23600dd150553eea808860a55452399dfbc3f5a75",
+          "sha256": "b6b57374245d69e2bf502cdc1b1a0d345b9fd6aa83eadf2243a03949f64dbf0b",
+          "sha1": "c9f0d4efcc6d41590bc1a51f83e2d3c58320b398",
+          "md5": "65e57b67f57b7530c079baff0289e4f3"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "kasechange-wasm-js-1.4.1-wasmjs1-sources.jar",
+          "url": "kasechange-wasm-js-1.4.1-wasmjs1-sources.jar",
+          "size": 6877,
+          "sha512": "79caa4e4f081c6ae2da0ec9b1a59458a1fd32ce0f20a40773c7e107228660d7fa298786d181f7a82032737c45f43cda2946810fbc583233a98402909cc63e9da",
+          "sha256": "76845834bb3bd2abc37a6abeff08a32e17f76fb86cff209a883f31e6135b6324",
+          "sha1": "4517cf8e34fa552f36ba5fc0e54d668f74f92ac9",
+          "md5": "e82635ec1a278bfcce6d8c47ee973d92"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kasechange/1.4.1-wasmjs1/kasechange-1.4.1-wasmjs1.module",
+    "group": "net.pearx.kasechange",
+    "module": "kasechange",
+    "version": "1.4.1-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kasechange-mingwX64Main-1.4.1-wasmjs1.klib",
+          "url": "kasechange-mingwx64-1.4.1-wasmjs1.klib",
+          "size": 24886,
+          "sha512": "e2d463773d15692733a302ccaee92991fb89f32ee81004a85b180a1771d5db4175e9fe49db5a0c42b8ad2d0cf585ffa095cc4310f1f7a2f3e32be5e25ce50068",
+          "sha256": "a1533101e513f29513a35fd96c74ac16784c02151d71732e03ea381f4f1242ae",
+          "sha1": "d83c0076b1e76a714756191650086fdefc799a52",
+          "md5": "fb222dbabb2c1a18d7600caf8900dabe"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kasechange-mingwx64-1.4.1-wasmjs1-sources.jar",
+          "url": "kasechange-mingwx64-1.4.1-wasmjs1-sources.jar",
+          "size": 6877,
+          "sha512": "79caa4e4f081c6ae2da0ec9b1a59458a1fd32ce0f20a40773c7e107228660d7fa298786d181f7a82032737c45f43cda2946810fbc583233a98402909cc63e9da",
+          "sha256": "76845834bb3bd2abc37a6abeff08a32e17f76fb86cff209a883f31e6135b6324",
+          "sha1": "4517cf8e34fa552f36ba5fc0e54d668f74f92ac9",
+          "md5": "e82635ec1a278bfcce6d8c47ee973d92"
+        }
+      ]
+    }
+  ]
+}
