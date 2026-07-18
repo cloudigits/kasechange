@@ -47,5 +47,8 @@ kotlin {
 publishing {
     repositories {
         mavenLocal()
+        maven(rootProject.layout.buildDirectory.dir("mvn-repo")) {
+            name = "localRepo"
+        }
     }
 }
